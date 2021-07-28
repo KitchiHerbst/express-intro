@@ -14,5 +14,5 @@ app.get('/api/courses', (req, res) => {
 //Environment variable PORT
 const port = process.env.PORT || 3000
 app.listen(port, () => {
-    console.log('Yummy 3000')
+    console.log(`Yummy ${port}`)
 })
